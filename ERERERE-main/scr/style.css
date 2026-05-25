@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Apps */
+.app1,
+.app2,
+.app3 {
+    background: white;
+    border: 2px solid #222;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.app1:hover,
+.app2:hover,
+.app3:hover {
+    transform: translateY(-5px);
+}
+
+.app1 {
+    border-left: 6px solid #3498db;
+}
+
+.app2 {
+    border-left: 6px solid #2ecc71;
+}
+
+.app3 {
+    border-left: 6px solid #e74c3c;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.card {
+    background: #fff;
+    border: 2px solid #222;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    margin-bottom: 20px;
+}
